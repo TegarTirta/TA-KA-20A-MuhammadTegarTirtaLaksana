@@ -40,18 +40,18 @@ class Login extends Controller
         if(count($this->model->getData($data["username"],$data["password"])) == 1)
         {
             // buat session
-            // $req->session()->put("username_loginapp",$data["username"]);
+            // $req->session()->put("username_Program",$data["username"]);
 
             // ambil data username
             $query = $this->model->getData($data["username"],$data["password"]);
             $nama = $query->last()->nama;
-            $req->session()->put("username_loginapp",$nama);
+            $req->session()->put("username_Program",$nama);
             
             // jika ingat = 1
             if($data["ingat"] ==1)
             {
                 // buat cookie
-            Cookie::queue("Cookie_loginapp", $nama,120);
+            Cookie::queue("Cookie_Program", $nama,120);
 
             }
             
@@ -69,10 +69,10 @@ class Login extends Controller
     function setLogout(Request $req)
     {
         // hapus session
-        $req->session()->forget('username_loginapp');
+        $req->session()->forget('username_Program');
 
         // hapus cookie
-        Cookie::queue(Cookie::forget("Cookie_loginapp"));
+        Cookie::queue(Cookie::forget("Cookie_Program"));
         
         //  alihkan ke halaman login
         return redirect("/login");
