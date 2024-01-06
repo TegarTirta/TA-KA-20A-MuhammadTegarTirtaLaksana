@@ -16,13 +16,16 @@
 </head>
 
 <body>
+    
     <!-- tampilan login -->
-    <main id="main_login" class="flex items-center justify-center h-screen bg-rose-300">
+    <main id="main_login" class="flex items-center justify-center h-screen bg-orange-100" >
+        
         <!-- frame login -->
-        <section id="section_frame" class="w-1/3 border-2 border-rose-500 rounded-xl p-5 bg-indigo-100">
+        <img src="admin.png" alt="logo admin">
+        <section id="section_frame" class="w-1/3 border-2 border-stone-500 rounded-xl p-5 bg-indigo-100">
             <!-- area judul -->
             <section id="section_judul" class="mb-5 text-center">
-                Login Aplikasi
+                Login Perpustakaan
             </section>
 
             <!-- area input -->
@@ -42,8 +45,8 @@
 
             <!-- area tombol-->
             <section id="section_tombol" class="mt-5 text-center">
-                <button id="btn_login" class="bg-teal-400 h-8 w-32 rounded-xl" onclick="setLogin()">Login</button>
-                <button id="btn_batal" class="border-solid border-2 border-teal-400 h-8 w-32 rounded-xl">Batal</button>
+                <button id="btn_login" class="border-solid border-2 border-black bg-teal-100 h-8 w-32 rounded-xl" onclick="setLogin()">Login</button>
+                <button id="btn_batal" class="border-solid border-2 border-black h-8 w-32 rounded-xl">Batal</button>
             </section>
             
         </section>
