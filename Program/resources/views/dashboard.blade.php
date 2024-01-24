@@ -77,34 +77,34 @@
 <body>
 
     <header>
-        <h1>Dashboard Siakad</h1>
+        <h1>PERPUSTAKAAN KITA</h1>
     </header>
 
     <nav>
         <ul>
             <li><a href="#">Beranda</a></li>
-            <li><a href="#">Data Mahasiswa</a></li>
-            <li><a href="#">Jadwal Kuliah</a></li>
-            <li><a href="#">Nilai Mahasiswa</a></li>
+            <li><a href="#">Data Siswa</a></li>
+            <li><a href="#">Nama Buku</a></li>
+            <li><a href="#">Jadwal Peminjaman</a></li>
             <!-- Tambahkan menu lain sesuai kebutuhan -->
         </ul>
     </nav>
 
     <main>
-        <h2>Selamat datang di Dashboard Siakad</h2>
+        <h2>Selamat datang di PERPUSTAKAAN KITA</h2>
 
         <div class="card">
-            <h3>Data Mahasiswa</h3>
+            <h3>Data Peminjaman</h3>
             <!-- Tambahkan konten data mahasiswa di sini -->
         </div>
 
         <div class="card">
-            <h3>Jadwal Kuliah</h3>
+            <h3>Jadwal Pengembalian</h3>
             <!-- Tambahkan konten jadwal kuliah di sini -->
         </div>
 
         <div class="card">
-            <h3>Nilai Mahasiswa</h3>
+            <h3>Nama Buku</h3>
             <!-- Tambahkan konten nilai mahasiswa di sini -->
         </div>
         <div>
@@ -122,7 +122,7 @@
     </script>
 
     <footer>
-        <p>&copy; 2024 Dashboard Siakad</p>
+        <p>&copy; 2024 PERPUSTAKAAN KITA</p>
     </footer>
 
 </body>
