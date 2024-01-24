@@ -75,7 +75,7 @@
         footer {
             background-color: rgb(254 215 170);
             color: black;
-            padding: 1em;
+            padding: 0.5px;
             text-align: center;
             font-family: 'Times New Roman', Times, serif;
         }
