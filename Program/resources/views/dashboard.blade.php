@@ -28,8 +28,8 @@
         }
 
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: rgb(254 215 170);
+            color: black;
             padding: 1em;
             text-align: center;
         }
@@ -67,10 +67,14 @@
         }
 
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: rgb(254 215 170);
+            color: black;
             padding: 1em;
             text-align: center;
+        }
+        .center-container img {
+            margin: auto; /* Untuk menengahkan gambar */
+            display: block; /* Membuat gambar menjadi blok sehingga margin:auto dapat bekerja */
         }
     </style>
 
@@ -92,7 +96,9 @@
 
     <main>
         <h2>Selamat datang di PERPUSTAKAAN KITA</h2>
-
+        <div class="center-container">
+            <img src="dashboard.png" alt="dashboard">
+        </div>
         <div class="card">
             <h3>Data Peminjaman</h3>
             <!-- Tambahkan konten data mahasiswa di sini -->
