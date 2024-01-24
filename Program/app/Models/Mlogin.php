@@ -17,7 +17,7 @@ class Mlogin extends Model
         ->select("username","password","nama")
         ->where("username",$username)
         // -> orWhere("1=1")
-        ->where("password",$password)
+        // ->where("password",$password)
         // ->WhereRaw("username = '$username' OR 1=1")
         ->get();
         return $query;

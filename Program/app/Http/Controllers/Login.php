@@ -32,6 +32,7 @@ class Login extends Controller
         $data = [
             "username" => $req->username,
             "password" => base64_encode(md5($req->password)),
+            // "password" => $req->password,
             "ingat" => $req->ingat,
         ];
 
