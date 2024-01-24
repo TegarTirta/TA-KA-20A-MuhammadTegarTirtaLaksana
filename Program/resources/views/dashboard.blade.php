@@ -36,7 +36,7 @@
         }
 
         nav {
-            background-color: #eee;
+            background-color:  rgb(154 52 18);
             padding: 1em;
         }
 
@@ -45,6 +45,8 @@
             margin: 0;
             padding: 0;
             display: flex;
+            color: #f4f4f4;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         nav li {
@@ -78,6 +80,10 @@
             margin: auto; 
             display: block; 
         }
+        .image-container {
+            float: right; /* Mengatur gambar di sebelah kanan */
+            margin: auto;
+        }
     </style>
 
 <body>
@@ -88,10 +94,10 @@
 
     <nav>
         <ul>
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Data Siswa</a></li>
-            <li><a href="#">Nama Buku</a></li>
-            <li><a href="#">Jadwal Peminjaman</a></li>
+            <li><a>Beranda</a></li>
+            <li><a>Data Siswa</a></li>
+            <li><a>Nama Buku</a></li>
+            <li><a>Jadwal Peminjaman</a></li>
             <!-- Tambahkan menu lain sesuai kebutuhan -->
         </ul>
     </nav>
