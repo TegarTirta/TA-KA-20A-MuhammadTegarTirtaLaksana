@@ -32,6 +32,7 @@
             color: black;
             padding: 1em;
             text-align: center;
+            font-family: 'Times New Roman', Times, serif;
         }
 
         nav {
@@ -71,10 +72,11 @@
             color: black;
             padding: 1em;
             text-align: center;
+            font-family: 'Times New Roman', Times, serif;
         }
         .center-container img {
-            margin: auto; /* Untuk menengahkan gambar */
-            display: block; /* Membuat gambar menjadi blok sehingga margin:auto dapat bekerja */
+            margin: auto; 
+            display: block; 
         }
     </style>
 
