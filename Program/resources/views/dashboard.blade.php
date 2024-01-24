@@ -24,7 +24,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: rgb(255 247 237);
         }
 
         header {
@@ -59,6 +59,7 @@
 
         h2 {
             color: #333;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
 
         .card {
@@ -67,6 +68,7 @@
             border-radius: 5px;
             padding: 1em;
             margin-bottom: 1em;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
 
         footer {
@@ -79,10 +81,6 @@
         .center-container img {
             margin: auto; 
             display: block; 
-        }
-        .image-container {
-            float: right; /* Mengatur gambar di sebelah kanan */
-            margin: auto;
         }
     </style>
 
@@ -103,7 +101,7 @@
     </nav>
 
     <main>
-        <h2>Selamat datang di PERPUSTAKAAN KITA</h2>
+        <h2>SELAMAT DATANG, {{$isi_session}}</h2>
         <div class="center-container">
             <img src="dashboard.png" alt="dashboard">
         </div>
