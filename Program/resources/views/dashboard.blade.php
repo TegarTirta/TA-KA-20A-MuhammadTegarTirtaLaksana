@@ -60,6 +60,7 @@
         h2 {
             color: #333;
             font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
         }
 
         .card {
@@ -101,10 +102,10 @@
     </nav>
 
     <main>
-        <h2>SELAMAT DATANG, {{$isi_session}}</h2>
         <div class="center-container">
             <img src="dashboard.png" alt="dashboard">
         </div>
+        <h2>SELAMAT DATANG, {{$isi_session}}</h2>
         <div class="card">
             <h3>Data Peminjaman</h3>
             <!-- Tambahkan konten data mahasiswa di sini -->
