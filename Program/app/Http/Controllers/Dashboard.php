@@ -26,8 +26,7 @@ class Dashboard extends Controller
         // buat session
         // jika session ada dan berhasil
         // jika cookie ada
-        // if($req->session()->has('username_loginapp') || Cookie::has("Cookie_loginapp")){
-            // ambil nilai session "username_loginapp"
+            // ambil nilai session "username_Program"
             $data = [
                 "isi_session" => $req->session()->get('username_Program')
             ];

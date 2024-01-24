@@ -65,7 +65,7 @@
 
         .card {
             background-color: #fff;
-            border: 1px solid #ddd;
+            border: 1px solid black;
             border-radius: 5px;
             padding: 1em;
             margin-bottom: 1em;
